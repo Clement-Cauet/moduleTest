@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>writeValueClass</class>
+ <widget class="QMainWindow" name="writeValueClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>594</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>writeValue</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="activeAll">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Active All</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="desactiveAll">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Desactive All</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SN1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>SN1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_11">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ON</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_12">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>120</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ON</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="off_12">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>120</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="off_11">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SN2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>160</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>SN2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PHY">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>PHY</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>90</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Siren :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>120</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Alarm :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_21">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>180</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ON</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_22">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>210</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ON</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="off_22">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>210</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>210</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Alarm :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="off_21">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>180</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>180</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Siren :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>240</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Lock :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_23">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ON</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="off_23">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_31">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>300</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ON</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_32">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>330</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ON</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="off_32">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>330</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>330</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Alarm :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="off_31">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>300</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>300</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Siren :</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>594</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="writeValue.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>off_11</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_11()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>134</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>off_12</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_12()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>on_11</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>on_11()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>134</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>on_12</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>on_12()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>on_21</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>on_21()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>off_22</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_22()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>on_23</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>on_23()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>284</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>on_31</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>on_31()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>344</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>on_32</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>on_32()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>on_22</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_22()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>off_21</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_21()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>off_23</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_23()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>284</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>off_31</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_31()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>344</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>off_32</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_32()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>on_11()</slot>
+  <slot>off_11()</slot>
+  <slot>on_12()</slot>
+  <slot>off_12()</slot>
+  <slot>on_21()</slot>
+  <slot>off_21()</slot>
+  <slot>on_22()</slot>
+  <slot>off_22()</slot>
+  <slot>on_23()</slot>
+  <slot>off_23()</slot>
+  <slot>on_31()</slot>
+  <slot>off_31()</slot>
+  <slot>on_32()</slot>
+  <slot>off_32()</slot>
+ </slots>
+</ui>
