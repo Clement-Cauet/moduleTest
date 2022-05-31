@@ -594,7 +594,7 @@
    <sender>on_22</sender>
    <signal>clicked()</signal>
    <receiver>writeValueClass</receiver>
-   <slot>off_22()</slot>
+   <slot>on_22()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>277</x>
@@ -670,6 +670,38 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>activeAll</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>on_all()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>227</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>desactiveAll</sender>
+   <signal>clicked()</signal>
+   <receiver>writeValueClass</receiver>
+   <slot>off_all()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>on_11()</slot>
@@ -686,5 +718,7 @@
   <slot>off_31()</slot>
   <slot>on_32()</slot>
   <slot>off_32()</slot>
+  <slot>on_all()</slot>
+  <slot>off_all()</slot>
  </slots>
 </ui>

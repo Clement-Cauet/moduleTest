@@ -1,5 +1,7 @@
 #include "PCI_7248_Card.h"
 
+U16 PCI_7248_Card::card = -1;
+
 bool PCI_7248_Card::readCard(U16 channel, U16 sensor)
 {
 

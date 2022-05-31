@@ -7,7 +7,7 @@ class PCI_7248_Card
 public:
 
 	PCI_7248_Card() {
-		card = Register_Card(PCI_7248, 0);
+		this->card = Register_Card(PCI_7248, 0);
 		for (int i = 0; i < 3; i++)
 		{
 			//DIO_PortConfig(this->card, i, INPUT_PORT);
@@ -15,7 +15,7 @@ public:
 
 		for (int i = 5; i < 8; i++)
 		{
-			//DIO_PortConfig(this->card, i, OUTPUT_PORT);
+			DIO_PortConfig(this->card, i, OUTPUT_PORT);
 		}
 	}
 

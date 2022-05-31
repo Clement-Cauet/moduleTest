@@ -34,6 +34,10 @@ public slots:
 	void on_32();
 	void off_32();
 
+	// ALL
+	void on_all();
+	void off_all();
+
 private:
     Ui::writeValueClass ui;
 };
